@@ -1,4 +1,4 @@
 ---
 layout: home
-author_profile: tru
+author_profile: true
 ---
