@@ -15,6 +15,17 @@ def print_hi(name):
 print_hi('Tom')
 ```
 
+#생성된 사진의 차원
+{% highlight python %}
+
+width, height = load_img(target_image_path).size
+img_height = 400
+img_width = int(width * img_height / height)
+
+{% endhighlight %}
+
+
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
